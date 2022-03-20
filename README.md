@@ -443,12 +443,12 @@ This terraform module includes ;<br/>
 
 
 **1.VPC**
-![VPC](https://github.com/nisaclk/IAC-CICD/blob/master/documentation/vpc60a-png.png)
+![VPC](https://github.com/nisaclk/tf-web/blob/master/documentation/vpc60a-png.png)
 
 **2.EC2 İnstance**
 * We see that the serveris running.
 
-![instance](https://github.com/nisaclk/IAC-CICD/blob/master/documentation/instance.png)
+![instance](https://github.com/nisaclk/tf-web/blob/master/documentation/instance.png)
 
 **3.Auto Scaling Group**
 * There will be a minimum of 1 instance to serve the traffic.
@@ -457,19 +457,19 @@ This terraform module includes ;<br/>
 
 * Auto Scaling Group will be launched with 1 instance
 
-![ASG](https://github.com/nisaclk/IAC-CICD/blob/master/documentation/autoscalinggroup.png)
+![ASG](https://github.com/nisaclk/tf-web/blob/master/documentation/autoscalinggroup.png)
 
 **4.Elastic Load Balancer**
-![ELB](https://github.com/nisaclk/IAC-CICD/blob/master/documentation/elb.png)
+![ELB](https://github.com/nisaclk/tf-web/blob/master/documentation/elb.png)
 
 **5.CloudWatch Metrics**
 
 * Scale Up :If the total CPU utilization of all instances in our Auto Scaling Group will be the greater or equal threshold value which is 50% during 120 seconds.
 
-![>50](https://github.com/nisaclk/IAC-CICD/blob/master/documentation/cpu-scale-up-detals.png)
+![>50](https://github.com/nisaclk/tf-web/blob/master/documentation/cpu-scale-up-detals.png)
 
 * Scale Down :If the total CPU utilization of all instances in our Auto Scaling Group will be the lesser or equal threshold value which is 20% during 120 seconds.
 
-![>20](https://github.com/nisaclk/IAC-CICD/blob/master/documentation/scale-down-graph.png)
+![>20](https://github.com/nisaclk/tf-web/blob/master/documentation/scale-down-graph.png)
 
 
