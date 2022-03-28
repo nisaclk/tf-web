@@ -446,7 +446,7 @@ This terraform module includes ;<br/>
 ![VPC](https://github.com/nisaclk/tf-web/blob/master/documentation/vpc60a-png.png)
 
 **2.EC2 İnstance**
-* We see that the serveris running.
+
 
 ![instance](https://github.com/nisaclk/tf-web/blob/master/documentation/instance.png)
 
