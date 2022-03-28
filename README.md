@@ -430,7 +430,7 @@ This terraform module includes ;<br/>
   ```
 * Here I am installing docker and running php application’s docker image.
 
-* Please check this link for [docker image](https://github.com/nisaclk/IAC-CICD/tree/master/docker) details. 
+* Please check this link for [docker image](https://github.com/nisaclk/tf-web/tree/master/docker) details. 
 
 **Finally, We need to run the below steps to test and create the infrastructure**
 
